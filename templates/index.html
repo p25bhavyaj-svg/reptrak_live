@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RepTrak Live | Reputation & Toolkit Analyser</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/chart.umd.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo">R</div>
+    <div>
+      <div class="name">RepTrak Live</div>
+      <div class="tag">Live reputation scoring from public web sources, with stakeholder actionables from the CCR reputation toolkit</div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="card form-card">
+    <form id="f">
+      <label>Company name<input name="company" placeholder="e.g. Eternal" required></label>
+      <label>Stock ticker<input name="ticker" placeholder="e.g. ETERNAL.NS or NSE:ETERNAL"></label>
+      <label>Instagram link<input name="instagram" placeholder="https://www.instagram.com/zomato/"></label>
+      <label>X link<input name="x" placeholder="https://x.com/zomato"></label>
+      <div class="actions">
+        <button type="submit" class="btn primary" id="run">Run live analysis</button>
+        <button type="button" class="btn ghost" id="demo">Load saved Eternal demo</button>
+      </div>
+    </form>
+    <div id="progress" class="progress hidden">
+      <div class="spinner"></div><span id="ptext">Collecting news, community, market, app-store and social data…</span>
+    </div>
+  </section>
+
+  <div id="banner" class="banner hidden"></div>
+
+  <div id="results" class="hidden">
+    <section class="kpis" id="kpis"></section>
+
+    <section class="card">
+      <div class="card-h"><h2>Source status</h2><button class="btn small ghost" id="dl">Download JSON</button></div>
+      <div id="sources" class="chips"></div>
+    </section>
+
+    <section class="grid2">
+      <div class="card">
+        <div class="card-h"><h2>RepTrak dimensions</h2><span class="muted">1-5 scale</span></div>
+        <div class="chart-box"><canvas id="radar"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-h"><h2>RepTrak Pulse</h2><span class="muted">emotional core</span></div>
+        <div id="pulse"></div>
+        <h3 class="mt">Two-track coverage</h3>
+        <div id="twotrack" class="twotrack"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-h"><h2>Dimension evidence</h2><span class="muted">most negative items per dimension</span></div>
+      <div class="table-wrap"><table id="dimtable"></table></div>
+    </section>
+
+    <section class="card">
+      <div class="card-h"><h2>Toolkit actionables</h2><span class="muted">prioritised by scorecard weight × severity × tone</span></div>
+      <div id="actions" class="actions-list"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-h"><h2>Stakeholder scorecard</h2><span class="muted" id="sindex"></span></div>
+      <div class="table-wrap"><table id="stable"></table></div>
+    </section>
+
+    <section class="grid2">
+      <div class="card">
+        <div class="card-h"><h2>Crisis radar (SCCT)</h2><span class="muted">negative items by crisis cluster</span></div>
+        <div id="radarcrisis"></div>
+      </div>
+      <div class="card">
+        <div class="card-h"><h2>Media frames</h2><span class="muted">earned media and community items</span></div>
+        <div class="chart-box"><canvas id="frames"></canvas></div>
+      </div>
+    </section>
+
+    <section class="grid2">
+      <div class="card">
+        <div class="card-h"><h2>Tone over time</h2><span class="muted">average sentiment by month</span></div>
+        <div class="chart-box"><canvas id="monthly"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-h"><h2>Market signal</h2><span class="muted" id="stockmeta"></span></div>
+        <div class="chart-box"><canvas id="stock"></canvas></div>
+      </div>
+    </section>
+
+    <section class="grid2">
+      <div class="card">
+        <div class="card-h"><h2>Digital presence</h2></div>
+        <div id="digital"></div>
+      </div>
+      <div class="card">
+        <div class="card-h"><h2>Reputation vs reality check</h2></div>
+        <p class="muted small">Compares how coverage portrays a dimension with an operating proxy for the same dimension.</p>
+        <div id="reality"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-h"><h2>Evidence explorer</h2>
+        <input id="filter" class="filter" placeholder="Filter by text, source, stakeholder or dimension">
+      </div>
+      <div class="table-wrap tall"><table id="items"></table></div>
+    </section>
+
+    <section class="card method">
+      <details>
+        <summary>Methodology and limitations</summary>
+        <ol>
+          <li><b>Collection</b> (direct scraping, no paid scraping services): Google News RSS and Bing News RSS (6-month window), Reddit public search, Yahoo Finance daily prices (1 year), Google Play rating and newest reviews, Instagram public profile, X public syndication timeline. Each source is best-effort; blocked sources are shown in the status panel and excluded.</li>
+          <li><b>Sentiment</b>: VADER compound score (-1 to +1) with a business and finance lexicon extension.</li>
+          <li><b>RepTrak dimensions</b>: items are tagged by keyword rules; score = 3 + 2 × mean tone × n/(n+4), so small samples move towards neutral. Performance blends tone with share-price momentum; Products & Services blends tone with app-store rating. Overall score uses approximate RepTrak weights.</li>
+          <li><b>Pulse</b>: Esteem = overall score; Admire = performance, innovation, leadership; Trust = governance, workplace, citizenship minus a penalty for preventable-crisis coverage; Feel-good = community and review tone.</li>
+          <li><b>Toolkit</b>: eight stakeholders with scorecard weights, engagement channels, frames, early-warning triggers and response rules from the CCR live project. Negative items are classified into SCCT clusters (victim, accidental, preventable) with prescribed response postures.</li>
+          <li><b>Limits</b>: keyword tagging and lexicon sentiment are approximations; scores indicate direction and relative strength, not a licensed RepTrak survey result. Instagram and X often block anonymous requests from cloud servers.</li>
+        </ol>
+      </details>
+    </section>
+  </div>
+</main>
+<footer>RepTrak Live · built for the CCR live project · scores are indicative, not an official RepTrak® rating</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

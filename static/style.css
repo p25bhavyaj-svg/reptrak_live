@@ -1,0 +1,85 @@
+:root{--maroon:#5A0E18;--crimson:#8E1B26;--red:#E23744;--rose:#D9636E;--pink:#F8E4E6;--pale:#FCF3F4;--line:#EBCFD3;--ink:#1F2937;--muted:#6B7280;--radius:12px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Calibri,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#fff}
+.top{background:var(--maroon);color:#fff;padding:18px 32px}
+.brand{display:flex;gap:14px;align-items:center;max-width:1280px;margin:0 auto}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--red);display:flex;align-items:center;justify-content:center;font:700 24px Arial}
+.name{font:700 22px Arial}
+.tag{color:#F5D5D9;font-size:14px}
+main{max-width:1280px;margin:0 auto;padding:20px 24px 40px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin-bottom:18px}
+.card-h{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}
+h2{font:700 18px Arial;color:var(--maroon);margin:0}
+h3{font:700 15px Arial;color:var(--maroon);margin:0 0 8px}
+.mt{margin-top:16px}
+.muted{color:var(--muted);font-size:13px}
+.small{font-size:13px}
+.form-card form{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+label{display:flex;flex-direction:column;font-size:13px;font-weight:700;color:var(--maroon);gap:6px}
+input{padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:var(--pale)}
+input:focus{outline:2px solid var(--rose);background:#fff}
+.actions{grid-column:1/-1;display:flex;gap:10px}
+.btn{border:0;border-radius:10px;padding:11px 18px;font-weight:700;font-size:15px;cursor:pointer}
+.btn.primary{background:var(--red);color:#fff}
+.btn.primary:disabled{opacity:.6;cursor:wait}
+.btn.ghost{background:var(--pink);color:var(--maroon)}
+.btn.small{padding:7px 12px;font-size:13px}
+.progress{display:flex;align-items:center;gap:12px;margin-top:14px;color:var(--maroon);font-weight:700}
+.spinner{width:22px;height:22px;border:3px solid var(--pink);border-top-color:var(--red);border-radius:50%;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hidden{display:none!important}
+.banner{background:var(--pink);border-left:0;border-radius:var(--radius);padding:12px 16px;margin-bottom:18px;color:var(--maroon);font-size:14px}
+.banner.warn{background:#FDE2E4;color:#8E1B26}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:18px}
+.kpi{background:var(--maroon);color:#fff;border-radius:var(--radius);padding:16px}
+.kpi.alt{background:var(--crimson)}
+.kpi.light{background:var(--pink);color:var(--maroon)}
+.kpi .v{font:700 34px Arial;line-height:1.1}
+.kpi .l{font-size:13px;opacity:.9;margin-top:4px}
+.kpi .b{display:inline-block;margin-top:8px;background:rgba(255,255,255,.18);border-radius:20px;padding:2px 10px;font-size:12px;font-weight:700}
+.kpi.light .b{background:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border-radius:20px;padding:6px 12px;font-size:13px;font-weight:700}
+.chip.ok{background:var(--maroon);color:#fff}
+.chip.bad{background:var(--pink);color:var(--crimson)}
+.chip small{font-weight:400;opacity:.85}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.grid2 .card{margin-bottom:18px}
+.chart-box{position:relative;height:320px}
+.table-wrap{overflow:auto}
+.table-wrap.tall{max-height:520px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th{background:var(--maroon);color:#fff;text-align:left;padding:9px 10px;position:sticky;top:0;font-size:13px}
+td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:nth-child(even) td{background:var(--pale)}
+.score{display:inline-block;min-width:44px;text-align:center;border-radius:8px;padding:3px 8px;color:#fff;font-weight:700}
+.s-hi{background:var(--maroon)}.s-mid{background:var(--rose)}.s-lo{background:var(--red)}.s-na{background:#C9A3A9}
+.status{border-radius:20px;padding:3px 10px;font-size:12px;font-weight:700;color:#fff;white-space:nowrap}
+.st-fired{background:var(--red)}.st-watch{background:var(--rose)}.st-ok{background:var(--maroon)}
+.pulse-row{display:grid;grid-template-columns:110px 1fr 50px;align-items:center;gap:10px;margin:8px 0;font-weight:700}
+.bar{height:16px;background:var(--pink);border-radius:10px;overflow:hidden}
+.bar>div{height:100%;border-radius:10px}
+.twotrack{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tt{background:var(--pale);border-radius:10px;padding:12px}
+.tt .v{font:700 28px Arial}
+.actions-list{display:grid;gap:12px}
+.act{display:grid;grid-template-columns:56px 1fr;gap:14px;background:var(--pale);border-radius:var(--radius);padding:14px}
+.rank{width:56px;height:56px;border-radius:14px;background:var(--red);color:#fff;font:700 22px Arial;display:flex;align-items:center;justify-content:center}
+.act.watch .rank{background:var(--rose)}
+.act h4{margin:0 0 6px;font:700 16px Arial;color:var(--maroon);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.act .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 16px;font-size:14px}
+.act .grid b{color:var(--crimson);display:block;font-size:12px;text-transform:uppercase;letter-spacing:.3px}
+.act .ev{margin-top:8px;font-size:13px;color:var(--muted)}
+.pill{border-radius:20px;padding:2px 9px;font-size:12px;font-weight:700;background:var(--pink);color:var(--maroon)}
+.cluster{border-radius:var(--radius);padding:12px 14px;margin-bottom:10px;background:var(--pale)}
+.cluster h4{margin:0 0 4px;color:var(--maroon);font:700 15px Arial;text-transform:capitalize}
+.cluster ul{margin:6px 0 0 18px;padding:0;font-size:13px}
+.dig{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.dig .tt .v{font-size:24px}
+.filter{flex:1;max-width:420px}
+.neg{color:var(--red);font-weight:700}.pos{color:var(--maroon);font-weight:700}
+a{color:var(--crimson)}
+.method ol{font-size:14px;line-height:1.5}
+.method summary{font:700 16px Arial;color:var(--maroon);cursor:pointer}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
+@media(max-width:900px){.form-card form{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}.act .grid{grid-template-columns:1fr}}

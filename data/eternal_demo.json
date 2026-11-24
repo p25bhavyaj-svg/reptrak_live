@@ -1,0 +1,2298 @@
+{
+ "company": "Eternal (Zomato / Blinkit)",
+ "inputs": {
+  "company": "Eternal (Zomato / Blinkit)",
+  "ticker": "ETERNAL.NS",
+  "instagram": "zomato",
+  "x": "zomato"
+ },
+ "collected_at": "2026-11-25 (offline snapshot)",
+ "demo": true,
+ "note": "Saved demo: offline snapshot of 58 dated headlines (Dec-25 to Nov-26), Google Play summary and indicative share-price points compiled for the CCR live project. Instagram and X were not captured offline; press 'Run live analysis' for current data from all sources.",
+ "status": {
+  "google_news": {
+   "ok": true,
+   "n": 58,
+   "note": "offline snapshot"
+  },
+  "bing_news": {
+   "ok": false,
+   "error": "not used in offline snapshot"
+  },
+  "reddit": {
+   "ok": false,
+   "error": "not captured in offline snapshot"
+  },
+  "stock": {
+   "ok": true,
+   "n": 6,
+   "note": "indicative press-reported points"
+  },
+  "play_store": {
+   "ok": true,
+   "n": 0,
+   "note": "summary only (rating, 1-star share)"
+  },
+  "instagram": {
+   "ok": false,
+   "error": "not captured in offline snapshot"
+  },
+  "x": {
+   "ok": false,
+   "error": "not captured in offline snapshot"
+  }
+ },
+ "counts": {
+  "Google News": 58
+ },
+ "n_items": 58,
+ "reptrak": {
+  "score": 3.17,
+  "band": "Average",
+  "dimensions": {
+   "Products & Services": {
+    "score": 3.74,
+    "weight": 0.16,
+    "n": 25,
+    "tone": -0.057,
+    "basis": "media tone (50%) + app-store rating (50%)",
+    "worst": [
+     {
+      "text": "Blinkit store licence suspended after cockroaches, expired food found in FDA inspection",
+      "date": "2026-08-11",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.848
+     },
+     {
+      "text": "Eternal tanks 25% in 1 month; food delivery stock price nears 52-week low",
+      "date": "2026-03-13",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.612
+     },
+     {
+      "text": "LPG shortage may hurt food delivery order growth in Q4FY26: Motilal Oswal",
+      "date": "2026-03-12",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.599
+     }
+    ],
+    "best": [
+     {
+      "text": "HDFC Sec upgrades Eternal to 'Buy' on strong food delivery, Blinkit growth",
+      "date": "2026-04-02",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.778
+     },
+     {
+      "text": "Eternal shares up 6%; Elara says fee hike boosts outlook, sees 82% upside",
+      "date": "2026-03-24",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.599
+     },
+     {
+      "text": "Axis Securities recommends BUY on Eternal with target price Rs 365",
+      "date": "2026-10-26",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.477
+     }
+    ]
+   },
+   "Innovation": {
+    "score": 3.12,
+    "weight": 0.13,
+    "n": 5,
+    "tone": 0.105,
+    "basis": "media & community tone",
+    "worst": [
+     {
+      "text": "Zomato hikes platform fee 19% to Rs 14.90 amid rising delivery costs",
+      "date": "2026-03-20",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.202
+     },
+     {
+      "text": "Zomato launches AI-powered hotline to simplify delivery partner onboarding",
+      "date": "2026-02-10",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     },
+     {
+      "text": "After Eternal, Deepinder Goyal bets on health tech, aviation startup",
+      "date": "2026-07-15",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     }
+    ],
+    "best": [
+     {
+      "text": "Temple explained: Deepinder Goyal's bet on wearables to extend healthy life",
+      "date": "2026-10-05",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.527
+     },
+     {
+      "text": "CCI junks complaint against Eternal over Zomato platform fee, pricing practices",
+      "date": "2026-07-23",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.202
+     },
+     {
+      "text": "After Eternal, Deepinder Goyal bets on health tech, aviation startup",
+      "date": "2026-07-15",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     }
+    ]
+   },
+   "Workplace": {
+    "score": 2.75,
+    "weight": 0.14,
+    "n": 6,
+    "tone": -0.21,
+    "basis": "media & community tone",
+    "worst": [
+     {
+      "text": "Zomato founder calls gig workers on strike 'miscreants', unions hit back",
+      "date": "2026-01-01",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.66
+     },
+     {
+      "text": "Gig workers report drop in orders on Zomato, Swiggy amid LPG shortage",
+      "date": "2026-03-12",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.542
+     },
+     {
+      "text": "Gig workers call all-India strike on Christmas and New Year's Eve",
+      "date": "2025-12-25",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.382
+     }
+    ],
+    "best": [
+     {
+      "text": "Big relief for gig workers: Blinkit to remove '10-minute delivery' branding",
+      "date": "2026-01-13",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.477
+     },
+     {
+      "text": "Zomato launches AI-powered hotline to simplify delivery partner onboarding",
+      "date": "2026-02-10",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     },
+     {
+      "text": "Zomato to cut about 250 jobs as it shuts Hyderabad customer support centre",
+      "date": "2026-08-31",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.153
+     }
+    ]
+   },
+   "Governance": {
+    "score": 2.89,
+    "weight": 0.14,
+    "n": 5,
+    "tone": -0.095,
+    "basis": "media & community tone",
+    "worst": [
+     {
+      "text": "Restaurant association urges CCI to stop Zomato from imposing price parity",
+      "date": "2026-07-14",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.382
+     },
+     {
+      "text": "Eternal gets GST demand order, penalty worth Rs 128 crore from UP officials",
+      "date": "2026-01-17",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.296
+     },
+     {
+      "text": "Deepinder Goyal steps down as Eternal Group CEO; Albinder Dhindsa to take charge",
+      "date": "2026-01-21",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     }
+    ],
+    "best": [
+     {
+      "text": "CCI junks complaint against Eternal over Zomato platform fee, pricing practices",
+      "date": "2026-07-23",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.202
+     },
+     {
+      "text": "CCI dismisses abuse of dominance and excessive pricing allegations against Zomato",
+      "date": "2026-10-15",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.0
+     },
+     {
+      "text": "Deepinder Goyal steps down as Eternal Group CEO; Albinder Dhindsa to take charge",
+      "date": "2026-01-21",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     }
+    ]
+   },
+   "Citizenship": {
+    "score": 3.18,
+    "weight": 0.15,
+    "n": 4,
+    "tone": 0.176,
+    "basis": "media & community tone",
+    "worst": [
+     {
+      "text": "Eternal reworking 2030 EV delivery target; 100% EV 'doesn't look feasible'",
+      "date": "2026-11-15",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.224
+     },
+     {
+      "text": "Eternal gets ESG rating 77, 'Leader' category from NSE Sustainability",
+      "date": "2025-12-10",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     },
+     {
+      "text": "Zomato's healthy food orders rise to 7.5% as younger users drive adoption",
+      "date": "2026-09-08",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.402
+     }
+    ],
+    "best": [
+     {
+      "text": "Temple explained: Deepinder Goyal's bet on wearables to extend healthy life",
+      "date": "2026-10-05",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.527
+     },
+     {
+      "text": "Zomato's healthy food orders rise to 7.5% as younger users drive adoption",
+      "date": "2026-09-08",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.402
+     },
+     {
+      "text": "Eternal gets ESG rating 77, 'Leader' category from NSE Sustainability",
+      "date": "2025-12-10",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     }
+    ]
+   },
+   "Leadership": {
+    "score": 2.78,
+    "weight": 0.14,
+    "n": 2,
+    "tone": -0.33,
+    "basis": "media & community tone",
+    "worst": [
+     {
+      "text": "Zomato founder calls gig workers on strike 'miscreants', unions hit back",
+      "date": "2026-01-01",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.66
+     },
+     {
+      "text": "Deepinder Goyal steps down as Eternal Group CEO; Albinder Dhindsa to take charge",
+      "date": "2026-01-21",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     }
+    ],
+    "best": [
+     {
+      "text": "Deepinder Goyal steps down as Eternal Group CEO; Albinder Dhindsa to take charge",
+      "date": "2026-01-21",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.0
+     },
+     {
+      "text": "Zomato founder calls gig workers on strike 'miscreants', unions hit back",
+      "date": "2026-01-01",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.66
+     }
+    ]
+   },
+   "Performance": {
+    "score": 3.64,
+    "weight": 0.14,
+    "n": 28,
+    "tone": 0.304,
+    "basis": "media tone (50%) + share-price momentum (50%)",
+    "worst": [
+     {
+      "text": "Eternal tanks 25% in 1 month; food delivery stock price nears 52-week low",
+      "date": "2026-03-13",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.612
+     },
+     {
+      "text": "LPG shortage may hurt food delivery order growth in Q4FY26: Motilal Oswal",
+      "date": "2026-03-12",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.599
+     },
+     {
+      "text": "LPG shortage shuts restaurants across cities; QSR, Eternal, Swiggy stocks hit",
+      "date": "2026-03-10",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": -0.586
+     }
+    ],
+    "best": [
+     {
+      "text": "Eternal Q4 profit jumps 4.5x on strong Blinkit, Zomato growth momentum",
+      "date": "2026-04-28",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.823
+     },
+     {
+      "text": "HDFC Sec upgrades Eternal to 'Buy' on strong food delivery, Blinkit growth",
+      "date": "2026-04-02",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.778
+     },
+     {
+      "text": "Eternal Q1 profit jumps fourfold to Rs 92 crore on Blinkit strength",
+      "date": "2026-07-22",
+      "source": "Google News",
+      "publisher": "",
+      "url": null,
+      "sentiment": 0.765
+     }
+    ]
+   }
+  }
+ },
+ "pulse": {
+  "score": 3.02,
+  "items": {
+   "Esteem": 3.17,
+   "Admire": 3.18,
+   "Trust": 2.73,
+   "Feel-good": 3.0
+  },
+  "band": "Average"
+ },
+ "stakeholder_index": 2.86,
+ "stakeholders": [
+  {
+   "id": "frontline",
+   "name": "Frontline / gig workers",
+   "example": "Delivery partners, riders, drivers",
+   "salience": "Definitive",
+   "weight": 20,
+   "n": 6,
+   "tone": -0.234,
+   "score": 2.72,
+   "status": "fired",
+   "reasons": [
+    "net tone -0.23 across 6 items",
+    "strike / protest / union coverage"
+   ],
+   "channel": "Worker council monthly; in-app town halls",
+   "message": "Earnings, safety, dignity",
+   "trigger": "Strike or protest call; negative tone on pay or safety",
+   "response": "Recognise concerns within 24h; co-design fix with worker representatives; publish commitments",
+   "kpi": "Audited earnings/hr; accidents per mn km; strike days",
+   "owner": "Business-unit CEO",
+   "recommendation": "R1 Worker earnings & safety charter (audited pay floor, no ETA-linked penalties, elected council)",
+   "evidence": [
+    {
+     "text": "Zomato founder calls gig workers on strike 'miscreants', unions hit back",
+     "date": "2026-01-01",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.66
+    },
+    {
+     "text": "Gig workers report drop in orders on Zomato, Swiggy amid LPG shortage",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.542
+    },
+    {
+     "text": "Gig workers call all-India strike on Christmas and New Year's Eve",
+     "date": "2025-12-25",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.382
+    },
+    {
+     "text": "Blinkit drops 10-minute delivery claim after Labour Ministry intervention",
+     "date": "2026-01-13",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.296
+    }
+   ]
+  },
+  {
+   "id": "customers",
+   "name": "Customers",
+   "example": "App users, buyers",
+   "salience": "Definitive",
+   "weight": 20,
+   "n": 11,
+   "tone": -0.045,
+   "score": 2.93,
+   "status": "watch",
+   "reasons": [],
+   "channel": "App, push notifications, social care; weekly",
+   "message": "Value, safety, fair fees",
+   "trigger": "1-star review share > 20%; fee or refund complaints spike",
+   "response": "Explain fee changes transparently; fix or refund; close the loop publicly",
+   "kpi": "App rating; 1-star share; complaint volume",
+   "owner": "Chief Customer Officer",
+   "recommendation": "R2/R4 Fee transparency and service-quality disclosure",
+   "evidence": [
+    {
+     "text": "LPG shortage may hurt food delivery order growth in Q4FY26: Motilal Oswal",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.599
+    },
+    {
+     "text": "Gig workers report drop in orders on Zomato, Swiggy amid LPG shortage",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.542
+    },
+    {
+     "text": "Eternal gets GST demand order, penalty worth Rs 128 crore from UP officials",
+     "date": "2026-01-17",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.296
+    },
+    {
+     "text": "Zomato hikes platform fee 19% to Rs 14.90 amid rising delivery costs",
+     "date": "2026-03-20",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.202
+    }
+   ]
+  },
+  {
+   "id": "partners",
+   "name": "Supply partners",
+   "example": "Restaurants, sellers, merchants, suppliers",
+   "salience": "Definitive",
+   "weight": 15,
+   "n": 7,
+   "tone": -0.324,
+   "score": 2.59,
+   "status": "fired",
+   "reasons": [
+    "net tone -0.32 across 7 items",
+    "boycott / antitrust / commission dispute"
+   ],
+   "channel": "Partner council quarterly; industry-association forum",
+   "message": "Fair terms, data access",
+   "trigger": "Boycott call; antitrust filing; commission dispute",
+   "response": "Negotiate in partner council; publish a partner compact with terms",
+   "kpi": "Partner NPS; open antitrust matters",
+   "owner": "Head of Partnerships",
+   "recommendation": "R4 Partner compact disclosed through IR; partner council",
+   "evidence": [
+    {
+     "text": "Bengaluru restaurants threaten Swiggy, Zomato boycott: what's the dispute?",
+     "date": "2026-07-30",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.818
+    },
+    {
+     "text": "LPG shortage shuts restaurants across cities; QSR, Eternal, Swiggy stocks hit",
+     "date": "2026-03-10",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.586
+    },
+    {
+     "text": "Zomato drops clause penalising restaurants for lower dine-in prices",
+     "date": "2026-04-23",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.527
+    },
+    {
+     "text": "Restaurant association urges CCI to stop Zomato from imposing price parity",
+     "date": "2026-07-14",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.382
+    }
+   ]
+  },
+  {
+   "id": "operations",
+   "name": "Operations sites & staff",
+   "example": "Dark stores, warehouses, plants",
+   "salience": "Dependent",
+   "weight": 10,
+   "n": 1,
+   "tone": -0.848,
+   "score": 2.66,
+   "status": "fired",
+   "reasons": [
+    "1 safety / inspection items"
+   ],
+   "channel": "Shift briefings; hygiene and safety training",
+   "message": "Safety and standards",
+   "trigger": "Failed audit; regulator inspection notice; licence suspension",
+   "response": "Pause affected site; public corrective note within 24h; third-party audit",
+   "kpi": "Sites audited; audit pass rate; regulator actions",
+   "owner": "COO",
+   "recommendation": "R2 Verified site-hygiene standard (100% third-party audits, grades shown to customers)",
+   "evidence": [
+    {
+     "text": "Blinkit store licence suspended after cockroaches, expired food found in FDA inspection",
+     "date": "2026-08-11",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.848
+    }
+   ]
+  },
+  {
+   "id": "employees",
+   "name": "Employees",
+   "example": "Corporate and support staff",
+   "salience": "Discretionary",
+   "weight": 10,
+   "n": 1,
+   "tone": -0.153,
+   "score": 2.94,
+   "status": "watch",
+   "reasons": [],
+   "channel": "CEO all-hands quarterly; pulse surveys",
+   "message": "Purpose, security",
+   "trigger": "Layoff news; review-site job-security score < 3.3",
+   "response": "Explain decisions openly; redeployment and support; internal-first communication",
+   "kpi": "Employee review overall / job security",
+   "owner": "CHRO",
+   "recommendation": "R4 People metrics in disclosure; internal-first communication",
+   "evidence": [
+    {
+     "text": "Zomato to cut about 250 jobs as it shuts Hyderabad customer support centre",
+     "date": "2026-08-31",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.153
+    }
+   ]
+  },
+  {
+   "id": "investors",
+   "name": "Investors",
+   "example": "Shareholders, analysts",
+   "salience": "Definitive",
+   "weight": 10,
+   "n": 24,
+   "tone": 0.358,
+   "score": 3.61,
+   "status": "ok",
+   "reasons": [],
+   "channel": "Shareholder letter + Q&A quarterly; ESG investor day yearly",
+   "message": "Growth with sustainability",
+   "trigger": "Share price down > 15% in 3 months; analyst downgrades; ESG questions",
+   "response": "Pre-disclose material non-financial risks; add stakeholder scorecard to results",
+   "kpi": "Analyst questions on ESG; ESG rating",
+   "owner": "CFO / IR",
+   "recommendation": "R4 Non-financial IR & ESG reset (stakeholder scorecard in every results letter)",
+   "evidence": [
+    {
+     "text": "Eternal tanks 25% in 1 month; food delivery stock price nears 52-week low",
+     "date": "2026-03-13",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.612
+    },
+    {
+     "text": "LPG shortage shuts restaurants across cities; QSR, Eternal, Swiggy stocks hit",
+     "date": "2026-03-10",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.586
+    },
+    {
+     "text": "Eternal, Sobha among 11 stocks FIIs cut stake for 8 quarters in a row",
+     "date": "2026-06-16",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.226
+    },
+    {
+     "text": "Eternal hits 10-month high; stock zoomed 56% from March low",
+     "date": "2026-08-26",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.202
+    }
+   ]
+  },
+  {
+   "id": "regulators",
+   "name": "Regulators & government",
+   "example": "Ministries, competition, tax and safety authorities",
+   "salience": "Dominant",
+   "weight": 10,
+   "n": 7,
+   "tone": -0.231,
+   "score": 2.71,
+   "status": "fired",
+   "reasons": [
+    "net tone -0.23 across 7 items",
+    "4 negative regulatory items"
+   ],
+   "channel": "Pre-emptive meetings; consultations; filings",
+   "message": "Compliance beyond minimum",
+   "trigger": "Ministry meeting; draft rules; notices, probes or penalties",
+   "response": "Offer an industry standard; comply early; disclose proactively",
+   "kpi": "Adverse regulatory actions; proactive filings",
+   "owner": "Head of Public Policy / Legal",
+   "recommendation": "R3 Crisis protocol & proactive regulatory engagement",
+   "evidence": [
+    {
+     "text": "Blinkit store licence suspended after cockroaches, expired food found in FDA inspection",
+     "date": "2026-08-11",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.848
+    },
+    {
+     "text": "Restaurant association urges CCI to stop Zomato from imposing price parity",
+     "date": "2026-07-14",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.382
+    },
+    {
+     "text": "Blinkit drops 10-minute delivery claim after Labour Ministry intervention",
+     "date": "2026-01-13",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.296
+    },
+    {
+     "text": "Eternal gets GST demand order, penalty worth Rs 128 crore from UP officials",
+     "date": "2026-01-17",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.296
+    }
+   ]
+  },
+  {
+   "id": "media",
+   "name": "Media & online communities",
+   "example": "Press, X, Instagram, Reddit",
+   "salience": "Demanding",
+   "weight": 5,
+   "n": 1,
+   "tone": -0.226,
+   "score": 2.91,
+   "status": "watch",
+   "reasons": [],
+   "channel": "Spokesperson bench; social listening desk",
+   "message": "Evidence, not rhetoric",
+   "trigger": "Non-financial tone < -0.3 for two weeks; viral controversy",
+   "response": "SCCT triage within 2h; CEO-led reply for preventable issues",
+   "kpi": "Share of negative non-financial coverage",
+   "owner": "Head of Communications",
+   "recommendation": "R3 Crisis protocol & CEO-led voice (SCCT triage, 24-hour CEO statement, group listening)",
+   "evidence": [
+    {
+     "text": "Eternal, Sobha among 11 stocks FIIs cut stake for 8 quarters in a row",
+     "date": "2026-06-16",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.226
+    }
+   ]
+  }
+ ],
+ "actionables": [
+  {
+   "stakeholder": "Frontline / gig workers",
+   "status": "fired",
+   "priority": 74.0,
+   "why": "net tone -0.23 across 6 items; strike / protest / union coverage",
+   "do": "Recognise concerns within 24h; co-design fix with worker representatives; publish commitments",
+   "channel": "Worker council monthly; in-app town halls",
+   "frame": "Earnings, safety, dignity",
+   "scct": "preventable",
+   "scct_response": "Rebuild: acknowledge, apologise, corrective action with verification, compensation where due",
+   "kpi": "Audited earnings/hr; accidents per mn km; strike days",
+   "owner": "Business-unit CEO",
+   "recommendation": "R1 Worker earnings & safety charter (audited pay floor, no ETA-linked penalties, elected council)",
+   "evidence": [
+    {
+     "text": "Zomato founder calls gig workers on strike 'miscreants', unions hit back",
+     "date": "2026-01-01",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.66
+    },
+    {
+     "text": "Gig workers report drop in orders on Zomato, Swiggy amid LPG shortage",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.542
+    }
+   ],
+   "rank": 1,
+   "horizon": "0-30 days"
+  },
+  {
+   "stakeholder": "Supply partners",
+   "status": "fired",
+   "priority": 59.6,
+   "why": "net tone -0.32 across 7 items; boycott / antitrust / commission dispute",
+   "do": "Negotiate in partner council; publish a partner compact with terms",
+   "channel": "Partner council quarterly; industry-association forum",
+   "frame": "Fair terms, data access",
+   "scct": "preventable",
+   "scct_response": "Rebuild: acknowledge, apologise, corrective action with verification, compensation where due",
+   "kpi": "Partner NPS; open antitrust matters",
+   "owner": "Head of Partnerships",
+   "recommendation": "R4 Partner compact disclosed through IR; partner council",
+   "evidence": [
+    {
+     "text": "Bengaluru restaurants threaten Swiggy, Zomato boycott: what's the dispute?",
+     "date": "2026-07-30",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.818
+    },
+    {
+     "text": "LPG shortage shuts restaurants across cities; QSR, Eternal, Swiggy stocks hit",
+     "date": "2026-03-10",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.586
+    }
+   ],
+   "rank": 2,
+   "horizon": "0-30 days"
+  },
+  {
+   "stakeholder": "Operations sites & staff",
+   "status": "fired",
+   "priority": 55.4,
+   "why": "1 safety / inspection items",
+   "do": "Pause affected site; public corrective note within 24h; third-party audit",
+   "channel": "Shift briefings; hygiene and safety training",
+   "frame": "Safety and standards",
+   "scct": "preventable",
+   "scct_response": "Rebuild: acknowledge, apologise, corrective action with verification, compensation where due",
+   "kpi": "Sites audited; audit pass rate; regulator actions",
+   "owner": "COO",
+   "recommendation": "R2 Verified site-hygiene standard (100% third-party audits, grades shown to customers)",
+   "evidence": [
+    {
+     "text": "Blinkit store licence suspended after cockroaches, expired food found in FDA inspection",
+     "date": "2026-08-11",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.848
+    }
+   ],
+   "rank": 3,
+   "horizon": "0-30 days"
+  },
+  {
+   "stakeholder": "Regulators & government",
+   "status": "fired",
+   "priority": 36.9,
+   "why": "net tone -0.23 across 7 items; 4 negative regulatory items",
+   "do": "Offer an industry standard; comply early; disclose proactively",
+   "channel": "Pre-emptive meetings; consultations; filings",
+   "frame": "Compliance beyond minimum",
+   "scct": "preventable",
+   "scct_response": "Rebuild: acknowledge, apologise, corrective action with verification, compensation where due",
+   "kpi": "Adverse regulatory actions; proactive filings",
+   "owner": "Head of Public Policy / Legal",
+   "recommendation": "R3 Crisis protocol & proactive regulatory engagement",
+   "evidence": [
+    {
+     "text": "Blinkit store licence suspended after cockroaches, expired food found in FDA inspection",
+     "date": "2026-08-11",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.848
+    },
+    {
+     "text": "Restaurant association urges CCI to stop Zomato from imposing price parity",
+     "date": "2026-07-14",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.382
+    }
+   ],
+   "rank": 4,
+   "horizon": "1-3 months"
+  },
+  {
+   "stakeholder": "Customers",
+   "status": "watch",
+   "priority": 31.3,
+   "why": "net tone -0.045",
+   "do": "Explain fee changes transparently; fix or refund; close the loop publicly",
+   "channel": "App, push notifications, social care; weekly",
+   "frame": "Value, safety, fair fees",
+   "scct": "preventable",
+   "scct_response": "Rebuild: acknowledge, apologise, corrective action with verification, compensation where due",
+   "kpi": "App rating; 1-star share; complaint volume",
+   "owner": "Chief Customer Officer",
+   "recommendation": "R2/R4 Fee transparency and service-quality disclosure",
+   "evidence": [
+    {
+     "text": "LPG shortage may hurt food delivery order growth in Q4FY26: Motilal Oswal",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.599
+    },
+    {
+     "text": "Gig workers report drop in orders on Zomato, Swiggy amid LPG shortage",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.542
+    }
+   ],
+   "rank": 5,
+   "horizon": "3-6 months"
+  },
+  {
+   "stakeholder": "Employees",
+   "status": "watch",
+   "priority": 17.3,
+   "why": "net tone -0.153",
+   "do": "Explain decisions openly; redeployment and support; internal-first communication",
+   "channel": "CEO all-hands quarterly; pulse surveys",
+   "frame": "Purpose, security",
+   "scct": "preventable",
+   "scct_response": "Rebuild: acknowledge, apologise, corrective action with verification, compensation where due",
+   "kpi": "Employee review overall / job security",
+   "owner": "CHRO",
+   "recommendation": "R4 People metrics in disclosure; internal-first communication",
+   "evidence": [
+    {
+     "text": "Zomato to cut about 250 jobs as it shuts Hyderabad customer support centre",
+     "date": "2026-08-31",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.153
+    }
+   ],
+   "rank": 6,
+   "horizon": "3-6 months"
+  },
+  {
+   "stakeholder": "Media & online communities",
+   "status": "watch",
+   "priority": 9.2,
+   "why": "net tone -0.226",
+   "do": "SCCT triage within 2h; CEO-led reply for preventable issues",
+   "channel": "Spokesperson bench; social listening desk",
+   "frame": "Evidence, not rhetoric",
+   "scct": null,
+   "scct_response": null,
+   "kpi": "Share of negative non-financial coverage",
+   "owner": "Head of Communications",
+   "recommendation": "R3 Crisis protocol & CEO-led voice (SCCT triage, 24-hour CEO statement, group listening)",
+   "evidence": [
+    {
+     "text": "Eternal, Sobha among 11 stocks FIIs cut stake for 8 quarters in a row",
+     "date": "2026-06-16",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.226
+    }
+   ],
+   "rank": 7,
+   "horizon": "3-6 months"
+  }
+ ],
+ "crisis_radar": [
+  {
+   "cluster": "preventable",
+   "n": 6,
+   "response": "Rebuild: acknowledge, apologise, corrective action with verification, compensation where due",
+   "posture": "Fully accommodative",
+   "items": [
+    {
+     "text": "Blinkit store licence suspended after cockroaches, expired food found in FDA inspection",
+     "date": "2026-08-11",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.848
+    },
+    {
+     "text": "Bengaluru restaurants threaten Swiggy, Zomato boycott: what's the dispute?",
+     "date": "2026-07-30",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.818
+    },
+    {
+     "text": "Zomato founder calls gig workers on strike 'miscreants', unions hit back",
+     "date": "2026-01-01",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.66
+    },
+    {
+     "text": "Gig workers call all-India strike on Christmas and New Year's Eve",
+     "date": "2025-12-25",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.382
+    },
+    {
+     "text": "Eternal gets GST demand order, penalty worth Rs 128 crore from UP officials",
+     "date": "2026-01-17",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.296
+    },
+    {
+     "text": "Zomato to cut about 250 jobs as it shuts Hyderabad customer support centre",
+     "date": "2026-08-31",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.153
+    }
+   ]
+  },
+  {
+   "cluster": "victim",
+   "n": 3,
+   "response": "Deny / clarify: correct misinformation, express concern, show business continuity",
+   "posture": "Defensive acceptable",
+   "items": [
+    {
+     "text": "LPG shortage may hurt food delivery order growth in Q4FY26: Motilal Oswal",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.599
+    },
+    {
+     "text": "LPG shortage shuts restaurants across cities; QSR, Eternal, Swiggy stocks hit",
+     "date": "2026-03-10",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.586
+    },
+    {
+     "text": "Gig workers report drop in orders on Zomato, Swiggy amid LPG shortage",
+     "date": "2026-03-12",
+     "source": "Google News",
+     "publisher": "",
+     "url": null,
+     "sentiment": -0.542
+    }
+   ]
+  }
+ ],
+ "frames": {
+  "ESG/Purpose": {
+   "negative": 0,
+   "neutral": 1,
+   "positive": 2
+  },
+  "Labour/Workforce": {
+   "negative": 4,
+   "neutral": 1,
+   "positive": 1
+  },
+  "Other": {
+   "negative": 2,
+   "neutral": 3,
+   "positive": 1
+  },
+  "Regulation/Legal": {
+   "negative": 3,
+   "neutral": 3,
+   "positive": 1
+  },
+  "Leadership/Governance": {
+   "negative": 0,
+   "neutral": 1,
+   "positive": 0
+  },
+  "Financial/Market": {
+   "negative": 5,
+   "neutral": 1,
+   "positive": 19
+  },
+  "Consumer/Pricing": {
+   "negative": 3,
+   "neutral": 0,
+   "positive": 1
+  },
+  "Competition": {
+   "negative": 1,
+   "neutral": 1,
+   "positive": 3
+  },
+  "Product safety": {
+   "negative": 1,
+   "neutral": 0,
+   "positive": 0
+  }
+ },
+ "two_track": {
+  "financial_n": 25,
+  "nonfinancial_n": 27,
+  "financial_positive_share": 0.76,
+  "nonfinancial_negative_share": 0.444,
+  "financial_tone": 0.328,
+  "nonfinancial_tone": -0.1
+ },
+ "monthly_tone": [
+  {
+   "month": "2025-12",
+   "tone": -0.191,
+   "n": 2
+  },
+  {
+   "month": "2026-01",
+   "tone": -0.023,
+   "n": 7
+  },
+  {
+   "month": "2026-02",
+   "tone": 0.148,
+   "n": 2
+  },
+  {
+   "month": "2026-03",
+   "tone": -0.079,
+   "n": 9
+  },
+  {
+   "month": "2026-04",
+   "tone": 0.39,
+   "n": 7
+  },
+  {
+   "month": "2026-05",
+   "tone": 0.625,
+   "n": 1
+  },
+  {
+   "month": "2026-06",
+   "tone": 0.097,
+   "n": 2
+  },
+  {
+   "month": "2026-07",
+   "tone": 0.053,
+   "n": 8
+  },
+  {
+   "month": "2026-08",
+   "tone": -0.147,
+   "n": 7
+  },
+  {
+   "month": "2026-09",
+   "tone": 0.21,
+   "n": 5
+  },
+  {
+   "month": "2026-10",
+   "tone": 0.361,
+   "n": 6
+  },
+  {
+   "month": "2026-11",
+   "tone": 0.118,
+   "n": 2
+  }
+ ],
+ "stock": {
+  "last": 312.35,
+  "last_date": "2026-10-21",
+  "r1y": 0.0741,
+  "r3m": 0.358,
+  "r1m": -0.0648,
+  "drawdown_from_peak": -0.0867,
+  "volatility": null,
+  "market_score": 3.75,
+  "currency": "INR",
+  "indicative": true
+ },
+ "stock_series": [
+  [
+   "2025-12-11",
+   290.8
+  ],
+  [
+   "2026-03-13",
+   214.2
+  ],
+  [
+   "2026-03-19",
+   230.0
+  ],
+  [
+   "2026-08-26",
+   334.0
+  ],
+  [
+   "2026-09-22",
+   342.0
+  ],
+  [
+   "2026-10-21",
+   312.35
+  ]
+ ],
+ "play": {
+  "app": "Zomato: Food Delivery & Dining",
+  "appId": "com.application.zomato",
+  "score": 4.57,
+  "ratings": 14141449,
+  "recent_avg": null,
+  "one_star_share": 0.178
+ },
+ "digital": {},
+ "reality_check": [
+  {
+   "proxy": "Share-price momentum",
+   "value": 3.75,
+   "perception": 3.64
+  },
+  {
+   "proxy": "App-store rating",
+   "value": 4.57,
+   "perception": 3.74
+  }
+ ],
+ "items": [
+  {
+   "text": "Eternal reworking 2030 EV delivery target; 100% EV 'doesn't look feasible'",
+   "date": "2026-11-15",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.224,
+   "dims": [
+    "Products & Services",
+    "Citizenship"
+   ],
+   "stakeholders": [],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal stock surges 18% in two weeks",
+   "date": "2026-11-05",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.459,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Axis Securities recommends BUY on Eternal with target price Rs 365",
+   "date": "2026-10-26",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.477,
+   "dims": [
+    "Products & Services",
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q2 profit jumps 92% to Rs 125 crore as revenue climbs 78%",
+   "date": "2026-10-21",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.527,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q2 results disappoint on profit; shares slip 5% intraday",
+   "date": "2026-10-21",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.077,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q2 preview: Brokerages expect market share gains, steady margins",
+   "date": "2026-10-19",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.557,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "CCI dismisses abuse of dominance and excessive pricing allegations against Zomato",
+   "date": "2026-10-15",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.0,
+   "dims": [
+    "Governance"
+   ],
+   "stakeholders": [
+    "regulators"
+   ],
+   "frame": "Regulation/Legal",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Temple explained: Deepinder Goyal's bet on wearables to extend healthy life",
+   "date": "2026-10-05",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.527,
+   "dims": [
+    "Innovation",
+    "Citizenship"
+   ],
+   "stakeholders": [],
+   "frame": "ESG/Purpose",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal on radar as quick commerce regains momentum: Motilal Oswal",
+   "date": "2026-09-29",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [],
+   "stakeholders": [],
+   "frame": "Other",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal rallies 8% in five straight days; stock zooms 60% from March low",
+   "date": "2026-09-22",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.67,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato, Swiggy's competitive intensity in qcom may inch up in medium term",
+   "date": "2026-09-18",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.178,
+   "dims": [],
+   "stakeholders": [],
+   "frame": "Competition",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato levies additional Rs 5 fee on cash on delivery orders",
+   "date": "2026-09-12",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.202,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [
+    "customers"
+   ],
+   "frame": "Consumer/Pricing",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato's healthy food orders rise to 7.5% as younger users drive adoption",
+   "date": "2026-09-08",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.402,
+   "dims": [
+    "Products & Services",
+    "Citizenship"
+   ],
+   "stakeholders": [
+    "customers"
+   ],
+   "frame": "ESG/Purpose",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato bans analogue dairy dishes, warns restaurants of delisting",
+   "date": "2026-08-31",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.25,
+   "dims": [],
+   "stakeholders": [
+    "partners"
+   ],
+   "frame": "Other",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato to cut about 250 jobs as it shuts Hyderabad customer support centre",
+   "date": "2026-08-31",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.153,
+   "dims": [
+    "Products & Services",
+    "Workplace"
+   ],
+   "stakeholders": [
+    "customers",
+    "employees"
+   ],
+   "frame": "Labour/Workforce",
+   "crisis": "preventable",
+   "channel": "news"
+  },
+  {
+   "text": "Eternal hits 10-month high; stock zoomed 56% from March low",
+   "date": "2026-08-26",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.202,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal zooms 36% in 2 months, nears 9-month high; what's driving stock?",
+   "date": "2026-08-13",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.421,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Blinkit store licence suspended after cockroaches, expired food found in FDA inspection",
+   "date": "2026-08-11",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.848,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [
+    "operations",
+    "regulators"
+   ],
+   "frame": "Product safety",
+   "crisis": "preventable",
+   "channel": "news"
+  },
+  {
+   "text": "Maharashtra govt may bring Swiggy, Zomato, Zepto under bike-taxi rules",
+   "date": "2026-08-08",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [],
+   "stakeholders": [
+    "regulators"
+   ],
+   "frame": "Regulation/Legal",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal leads food delivery and qcom, but Swiggy shows signs of catching up",
+   "date": "2026-08-04",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [],
+   "frame": "Competition",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Bengaluru restaurants threaten Swiggy, Zomato boycott: what's the dispute?",
+   "date": "2026-07-30",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.818,
+   "dims": [],
+   "stakeholders": [
+    "partners"
+   ],
+   "frame": "Competition",
+   "crisis": "preventable",
+   "channel": "news"
+  },
+  {
+   "text": "CCI junks complaint against Eternal over Zomato platform fee, pricing practices",
+   "date": "2026-07-23",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.202,
+   "dims": [
+    "Products & Services",
+    "Innovation",
+    "Governance"
+   ],
+   "stakeholders": [
+    "customers",
+    "regulators"
+   ],
+   "frame": "Regulation/Legal",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q1 profit jumps fourfold to Rs 92 crore on Blinkit strength",
+   "date": "2026-07-22",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.765,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q1 Preview: Analysts see 11-15x PAT growth on Blinkit's solid show",
+   "date": "2026-07-20",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.361,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Explained: The Zomato price-parity case and why restaurants oppose it",
+   "date": "2026-07-15",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [
+    "partners"
+   ],
+   "frame": "Regulation/Legal",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "After Eternal, Deepinder Goyal bets on health tech, aviation startup",
+   "date": "2026-07-15",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Innovation"
+   ],
+   "stakeholders": [],
+   "frame": "Other",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Restaurant association urges CCI to stop Zomato from imposing price parity",
+   "date": "2026-07-14",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.382,
+   "dims": [
+    "Products & Services",
+    "Governance"
+   ],
+   "stakeholders": [
+    "partners",
+    "regulators"
+   ],
+   "frame": "Regulation/Legal",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal stock up 2%; Motilal Oswal retains buy for 31% upside",
+   "date": "2026-07-07",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.296,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Why is Bajaj Broking bullish on Eternal stock? Check the reasons here",
+   "date": "2026-06-29",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.421,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal, Sobha among 11 stocks FIIs cut stake for 8 quarters in a row",
+   "date": "2026-06-16",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.226,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors",
+    "media"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal, Maruti can rally up to 30%, says Mirae Asset Sharekhan",
+   "date": "2026-05-14",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.625,
+   "dims": [],
+   "stakeholders": [],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal eyes $20 bn in B2C NOV by FY28; $1 bn in adjusted Ebitda by FY29",
+   "date": "2026-04-29",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal stock: Strong guidance aids outlook; Street sees up to 58% upside",
+   "date": "2026-04-29",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.67,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal's stock hinges on delivering robust guidance amid growth push",
+   "date": "2026-04-29",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.511,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q4 profit jumps 4.5x on strong Blinkit, Zomato growth momentum",
+   "date": "2026-04-28",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.823,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q4 preview: PAT may jump 263% YoY; Blinkit, FD growth in focus",
+   "date": "2026-04-27",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.477,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato drops clause penalising restaurants for lower dine-in prices",
+   "date": "2026-04-23",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.527,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [
+    "partners"
+   ],
+   "frame": "Consumer/Pricing",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "HDFC Sec upgrades Eternal to 'Buy' on strong food delivery, Blinkit growth",
+   "date": "2026-04-02",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.778,
+   "dims": [
+    "Products & Services",
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Other",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal shares up 6%; Elara says fee hike boosts outlook, sees 82% upside",
+   "date": "2026-03-24",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.599,
+   "dims": [
+    "Products & Services",
+    "Performance"
+   ],
+   "stakeholders": [
+    "customers",
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato hikes platform fee 19% to Rs 14.90 amid rising delivery costs",
+   "date": "2026-03-20",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.202,
+   "dims": [
+    "Products & Services",
+    "Innovation"
+   ],
+   "stakeholders": [
+    "customers"
+   ],
+   "frame": "Consumer/Pricing",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal well placed to 'emerge stronger'; JM Fin sees 80% stock upside",
+   "date": "2026-03-17",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.71,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal tanks 25% in 1 month; food delivery stock price nears 52-week low",
+   "date": "2026-03-13",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.612,
+   "dims": [
+    "Products & Services",
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "LPG shortage may hurt food delivery order growth in Q4FY26: Motilal Oswal",
+   "date": "2026-03-12",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.599,
+   "dims": [
+    "Products & Services",
+    "Performance"
+   ],
+   "stakeholders": [
+    "customers"
+   ],
+   "frame": "Other",
+   "crisis": "victim",
+   "channel": "news"
+  },
+  {
+   "text": "Gig workers report drop in orders on Zomato, Swiggy amid LPG shortage",
+   "date": "2026-03-12",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.542,
+   "dims": [
+    "Products & Services",
+    "Workplace"
+   ],
+   "stakeholders": [
+    "frontline",
+    "customers"
+   ],
+   "frame": "Labour/Workforce",
+   "crisis": "victim",
+   "channel": "news"
+  },
+  {
+   "text": "BNP Paribas sees up to 83% upside in Eternal, Swiggy; says buy the dip",
+   "date": "2026-03-10",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.296,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [],
+   "frame": "Competition",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "LPG shortage shuts restaurants across cities; QSR, Eternal, Swiggy stocks hit",
+   "date": "2026-03-10",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.586,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "partners",
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": "victim",
+   "channel": "news"
+  },
+  {
+   "text": "Swiggy, magicpin, Zomato see food delivery regain growth momentum in Q3FY26",
+   "date": "2026-03-08",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.226,
+   "dims": [
+    "Products & Services",
+    "Performance"
+   ],
+   "stakeholders": [],
+   "frame": "Competition",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato launches AI-powered hotline to simplify delivery partner onboarding",
+   "date": "2026-02-10",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Products & Services",
+    "Innovation",
+    "Workplace"
+   ],
+   "stakeholders": [
+    "frontline"
+   ],
+   "frame": "Labour/Workforce",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato to share customers' data with restaurants: here's what it means",
+   "date": "2026-02-05",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.296,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [
+    "customers",
+    "partners"
+   ],
+   "frame": "Consumer/Pricing",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Deepinder Goyal steps down as Eternal Group CEO; Albinder Dhindsa to take charge",
+   "date": "2026-01-21",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Governance",
+    "Leadership"
+   ],
+   "stakeholders": [],
+   "frame": "Leadership/Governance",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal Q3 net profit soars 73% to Rs 102 crore, revenue up 201%",
+   "date": "2026-01-21",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.612,
+   "dims": [
+    "Performance"
+   ],
+   "stakeholders": [
+    "investors"
+   ],
+   "frame": "Financial/Market",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Eternal gets GST demand order, penalty worth Rs 128 crore from UP officials",
+   "date": "2026-01-17",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.296,
+   "dims": [
+    "Products & Services",
+    "Governance"
+   ],
+   "stakeholders": [
+    "customers",
+    "regulators"
+   ],
+   "frame": "Regulation/Legal",
+   "crisis": "preventable",
+   "channel": "news"
+  },
+  {
+   "text": "Blinkit drops 10-minute delivery claim after Labour Ministry intervention",
+   "date": "2026-01-13",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.296,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [
+    "frontline",
+    "regulators"
+   ],
+   "frame": "Regulation/Legal",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Big relief for gig workers: Blinkit to remove '10-minute delivery' branding",
+   "date": "2026-01-13",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.477,
+   "dims": [
+    "Products & Services",
+    "Workplace"
+   ],
+   "stakeholders": [
+    "frontline"
+   ],
+   "frame": "Labour/Workforce",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato, Blinkit hit all-time high deliveries on Dec 31, says Deepinder Goyal",
+   "date": "2026-01-01",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Products & Services"
+   ],
+   "stakeholders": [],
+   "frame": "Other",
+   "crisis": null,
+   "channel": "news"
+  },
+  {
+   "text": "Zomato founder calls gig workers on strike 'miscreants', unions hit back",
+   "date": "2026-01-01",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.66,
+   "dims": [
+    "Workplace",
+    "Leadership"
+   ],
+   "stakeholders": [
+    "frontline"
+   ],
+   "frame": "Labour/Workforce",
+   "crisis": "preventable",
+   "channel": "news"
+  },
+  {
+   "text": "Gig workers call all-India strike on Christmas and New Year's Eve",
+   "date": "2025-12-25",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": -0.382,
+   "dims": [
+    "Workplace"
+   ],
+   "stakeholders": [
+    "frontline"
+   ],
+   "frame": "Labour/Workforce",
+   "crisis": "preventable",
+   "channel": "news"
+  },
+  {
+   "text": "Eternal gets ESG rating 77, 'Leader' category from NSE Sustainability",
+   "date": "2025-12-10",
+   "source": "Google News",
+   "publisher": "",
+   "url": null,
+   "sentiment": 0.0,
+   "dims": [
+    "Products & Services",
+    "Citizenship",
+    "Performance"
+   ],
+   "stakeholders": [
+    "customers"
+   ],
+   "frame": "ESG/Purpose",
+   "crisis": null,
+   "channel": "news"
+  }
+ ]
+}
